@@ -1,0 +1,216 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	background-image: url(../images/MENU.png);
+	background-size: cover;
+	background-position: center;
+	height: 45px;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.menu li {
+	list-style: none;
+	color: white;
+	padding-left:5px;
+	font-family: Gotham;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	padding: 13px;
+	text-align: center;
+}
+
+.menu li:hover {
+	background:#cbe1ef;
+	color: #30616f;
+}
+.beach{
+	height: 65px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+.beach h2{
+	text-align: center;
+	font-family: Gloss and Bloom;
+	color: #043744;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+.first-name{
+	height: 40px;
+	margin-top: 45px;
+	margin-left: 50px;
+	margin-right: 800px;
+	border-bottom: 2px solid #c68b7d;
+	padding-left: 20px;
+}
+.first-name p{
+	text-align: left;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #285b69;
+}
+.first {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+
+}
+.first-pic {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 0px;
+	background-image: url(../images/calaguas.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.first-text{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-left: 30px;
+	border: 2px solid black;
+}
+.second-name{
+	height: 40px;
+	margin-top: 55px;
+	margin-right: 50px;
+	margin-left: 950px;
+	border-bottom: 2px solid #c68b7d;
+	padding-right: 20px;
+}
+.second-name p{
+	text-align: right;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #285b69;
+}
+.second {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+
+}
+.second-pic {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 0px;
+	background-image: url(../images/palawan.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.second-text{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-left: 30px;
+	border: 2px solid black;
+}
+.third-name{
+	height: 40px;
+	margin-top: 55px;
+	margin-left: 50px;
+	margin-right: 800px;
+	border-bottom: 2px solid #c68b7d;
+	padding-left: 20px;
+}
+.third-name p{
+	text-align: left;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #285b69;
+}
+.third {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+
+}
+.third-pic {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 0px;
+	background-image: url(../images/jomalig.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.third-text{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-left: 30px;
+	border: 2px solid black;
+}
+.fourth-name{
+	height: 40px;
+	margin-top: 55px;
+	margin-right: 50px;
+	margin-left: 970px;
+	border-bottom: 2px solid #c68b7d;
+	padding-right: 20px;
+}
+.fourth-name p{
+	text-align: right;
+	font-family: Gotham;
+	font-size: 30px;
+	color: #285b69;
+}
+.fourth {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 25px;
+	height: 300px;
+	margin: 25px;
+	margin-top: 25px;
+	padding-left: 0px;
+
+}
+.fourth-pic {
+	display: grid;
+	grid-template-columns: 1fr;
+	height: 300px;
+	padding-left: 0px;
+	background-image: url(../images/boracay.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.fourth-text{
+	display: grid;
+	grid-template-columns: 1fr;
+	padding-left: 30px;
+	border: 2px solid black;
+}
+.footer {
+	background-image: url(../images/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 160px;
+	margin-top: 25px;
+}

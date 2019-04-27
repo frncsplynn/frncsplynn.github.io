@@ -1,0 +1,142 @@
+a {
+	text-decoration: none;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+}
+.menu {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	background-image: url(../images/MENU.png);
+	background-size: cover;
+	background-position: center;
+	height: 45px;
+	margin: 0px;
+	padding-left: 0px;
+}
+
+.menu li {
+	list-style: none;
+	color: white;
+	padding-left:5px;
+	font-family: Gotham;
+	font-weight: bold;
+	letter-spacing: 3.5px;
+	padding: 13px;
+	text-align: center;
+}
+
+.menu li:hover {
+	background:#cbe1ef;
+	color: #30616f;
+}
+.title{
+	height: 65px;
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+.title h2{
+	text-align: center;
+	font-family: Gloss and Bloom;
+	color: #043744;
+	font-size: 40px;
+	letter-spacing: 3px;
+}
+.questions{
+	display: grid;
+	height: 65px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	margin: 25px;
+}
+.qone{
+	grid-template-columns:1fr;
+	border: 2px solid #c68b7d;
+}
+.qone p{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Gotham;
+	font-size: 18px;
+	text-align: center;
+}
+.qtwo{
+	grid-template-columns:1fr;
+	border: 2px solid #c68b7d;
+}
+.qtwo p{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Gotham;
+	font-size: 18px;
+	text-align: center;
+}
+.qthree{
+	grid-template-columns:1fr;
+	border: 2px solid #c68b7d;
+}
+.qthree p{
+	padding-left: 10px;
+	padding-right: 10px;
+	font-family: Gotham;
+	font-size: 18px;
+	text-align: center;
+}
+.answers{
+	display: grid;
+	height: 365px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+	margin: 25px;
+}
+.ans1{
+	grid-template-columns:1fr;
+	border: 2px solid #3b7281;
+	background-color: #e5f2fa;
+}
+.ans1 p{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Gotham book;
+	font-size: 17px;
+	text-align: justify;
+	text-indent: 30px;
+}
+.ans2{
+	grid-template-columns:1fr;
+	border: 2px solid #3b7281;
+	background-color: #e5f2fa;
+}
+.ans2 p{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Gotham book;
+	font-size: 17px;
+	text-align:justify;
+	text-indent: 30px;
+}
+.ans3{
+	grid-template-columns:1fr;
+	border: 2px solid #3b7281;
+	background-color: #e5f2fa;
+}
+.ans3 p{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Gotham book;
+	font-size: 17px;
+	text-align: justify;
+	text-indent: 30px;
+}
+.footer {
+	background-image: url(../images/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 160px;
+	margin-top: 25px;
+}
